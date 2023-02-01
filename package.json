@@ -1,0 +1,68 @@
+{
+  "name": "lifepet_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.117",
+    "@mui/material": "^5.11.6",
+    "@mui/styles": "^5.11.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "agora-rtc-sdk-ng": "^4.16.0",
+    "amazon-cognito-identity-js": "^6.1.2",
+    "aws-sdk": "^2.1301.0",
+    "axios": "^1.2.4",
+    "chart.js": "^3.8.2",
+    "chroma-js": "^2.4.2",
+    "find-config": "^1.0.0",
+    "formik": "^2.2.9",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "pagarme": "^4.29.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "^4.0.3",
+    "react-table": "^7.8.0",
+    "stylis-plugin-rtl": "^2.1.1",
+    "underscore": "^1.13.6",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

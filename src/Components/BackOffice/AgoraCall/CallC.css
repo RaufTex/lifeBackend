@@ -1,0 +1,26 @@
+.call {
+    text-align: center;
+    width: auto;
+    margin-left: 18%;
+  }
+  
+  .player-container {
+    padding: 20px;
+    text-align: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .button-group {
+    padding: 20px;
+  }
+  
+  
+  .call-form {
+    padding: 20px;
+  }
+  
+  input, button {
+    margin-right: 10px;
+  }
